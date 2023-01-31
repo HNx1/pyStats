@@ -32,7 +32,7 @@ def gini(groups, classes):
             continue
         score = 0.0
         for cla in classes:
-            p = [row[-1] for row in group].count(cla)/len(group)
+            p = [item[-1] for item in group].count(cla)/len(group)
             score += p ** 2
         gini += (1.0-score)*(len(group)/n)
     return gini
