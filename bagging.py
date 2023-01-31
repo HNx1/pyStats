@@ -2,7 +2,7 @@
 # (sampled randomly from within one large training set) can lead to dramatically different trees.
 # Basic theoretical idea: given n independent X_i with constant variance s**2, sample once from each and take mean to get sample mean X. This has variance s**2/n
 
-# We use k splitting of the data for cross-validation to establish error terms.
+# We use k splitting of the data for cross-validation to establish accuracy.
 # For computational efficiency, for observation i you could average across all trees where observation i is out of bag to generate a predicted response.
 # This requires some slight refactoring of the code to achieve
 
