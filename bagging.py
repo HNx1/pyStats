@@ -1,4 +1,5 @@
-# Bagging is used to reduce the high variance of decision trees, as different training sets (sampled randomly from within one large training set) can lead to dramatically different trees.
+# Bagging is used to reduce the high variance of decision trees, as different training sets (sampled randomly from within one large training set) 
+# can lead to dramatically different trees.
 # Basic theoretical idea: given n independent X_i with constant variance s**2, sample once from each and take mean to get sample mean X. This has variance s**2/n
 
 # We use k splitting of the data for cross-validation to establish error terms.
@@ -12,8 +13,10 @@
 # So each sublist is p+1 length - p features followed by the classifier for each observation.
 # We use the gini index to split based on optimal classifier at each node in the tree.
 
-# An optional rf parameter can be supplied into the bagging/scoreBagging functions to implement a random forest, which restricts the feature choice at a split point to one of sqrt(p) features, randomly chosen.
-# An optional ratio parameter can be supplied to reduce the size of the sample used in the bagging algorithm (by default it is equal to the number of the observations, so asymptotically containing 1-e**-1 proportion of the observations)
+# An optional rf parameter can be supplied into the bagging/scoreBagging functions to implement a random forest, 
+# which restricts the feature choice at a split point to one of sqrt(p) features, randomly chosen.
+# An optional ratio parameter can be supplied to reduce the size of the sample used in the bagging algorithm 
+# (by default it is equal to the number of the observations, so asymptotically containing 1-e**-1 proportion of the observations)
 
 
 import numpy as np
