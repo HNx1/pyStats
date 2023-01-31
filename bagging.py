@@ -6,7 +6,7 @@
 # For computational efficiency, for observation i you could average across all trees where observation i is out of bag to generate a predicted response.
 # This requires some slight refactoring of the code to achieve
 
-# This is a close-to pure python implementation using the numpy random sub module for random sampling (you could use the random module).
+# This is a close-to pure python implementation using the numpy.random sub module for random sampling (you could use the random module).
 # We'll also use pandas to read in a csv file, so we don't have to declare our data in-line.
 # There is no ability to read csvs in pure python, but you could use the csv module in the Python Standard Library as a closest-to-pure alternative.
 # The assumption of this implementation is that the data structure will be a list of lists combining the observations at p features with a classifier.
