@@ -1,5 +1,5 @@
-# Bagging is used to reduce the high variance of decision trees, as different training sets (sampled randomly from within one large training set) 
-# can lead to dramatically different trees.
+# Bagging is used to reduce the high variance of decision trees, as different training sets 
+# (sampled randomly from within one large training set) can lead to dramatically different trees.
 # Basic theoretical idea: given n independent X_i with constant variance s**2, sample once from each and take mean to get sample mean X. This has variance s**2/n
 
 # We use k splitting of the data for cross-validation to establish error terms.
