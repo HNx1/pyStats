@@ -133,7 +133,7 @@ def bagging(train, test, min, max, n, ratio=1.0, rf=False):
     return [baggingPred(trees, item) for item in test]
 
 
-# Split the dataset for k-fold cross
+# Split the dataset for k-fold cross validation purposes
 def k_split(dataset, k):
     dataset_split = []
     dataset_copy = dataset.copy()
