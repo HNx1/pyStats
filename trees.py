@@ -235,7 +235,7 @@ class AdaBoost():
     def train(self, rounds=50):
         # 1. To allow continuous training, we offload the initialisation step to the __init__ or reset methods
         # 2. For a number of iterations, do subsequent steps
-        for i in range(rounds):
+        for _ in range(rounds):
             # (a) Fit a classifier using the weights
             dtc = DTC(self.dataset, min=2, max=2, weights=self.weights)
             truths = [item[1][-1] for item in self.dataset]
