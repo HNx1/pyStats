@@ -13,7 +13,7 @@
 # 2) allows flexibility to implement cross-validation/bootstrapping in the dataset prior to boosting, which needs to know the index of the observation to apply the correct weight.
 
 # Note the DTC.split method is O(p*n**2) so for datasets > n=1000,p=100 this gets noticeably slow.
-# Consider vectorising DTC.split/DTC.gini using numpy for a faster implementation that is still close to pure python
+# If you wish to extend this to such data sets, consider vectorising DTC.split/DTC.gini using numpy for a faster implementation that is still close to pure python
 
 
 import numpy as np
