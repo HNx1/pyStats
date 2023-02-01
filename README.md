@@ -1,8 +1,7 @@
 # sparseStats
 
-- Lightweight implementations of various statistical learning methods, using as
+- Implementations of various statistical learning methods, using as
   close to pure python as possible
-- We focus on classifier methods.
 
 ## List of methods to date
 
