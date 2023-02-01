@@ -6,9 +6,9 @@
 
 ## List of methods to date
 
-- Bagging and Random Forest
+- in trees.py Bagging, Random Forest, AdaBoost/SAMME
 
 ## Credits for some ideas/structure used in code
 
 - Jason Brownlee
-- Elements of Statistical Learning - Hastie, Tibshirani, Friedman
+
