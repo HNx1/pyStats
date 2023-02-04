@@ -7,7 +7,7 @@ to pure python
 
 - in trees.py Bagging, Random Forest, AdaBoost/SAMME
 - in optimiser.py, analytic solution to linear regression, classic gradient
-  descent, momentume descent, Nesterov Accelerated Gradient, ADAM, AMSGrad,
+  descent, momentum descent, Nesterov Accelerated Gradient, ADAM, AMSGrad,
   RMSprop
 
 ## Credits for some ideas/structure used in code
